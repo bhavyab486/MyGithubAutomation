@@ -18,7 +18,8 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
+//git clone
 //untracked
-//add - workspace save
+//add - workspace add
 //commit - local repository
 //push - remote repository (github)
