@@ -11,6 +11,8 @@ test('has title', async ({ page }) => {
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
+  // test statement
+  
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
 
@@ -18,8 +20,9 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 
-//git clone
+//git clone url
 //untracked
 //add - workspace add
 //commit - local repository
 //push - remote repository (github)
+//git pull
