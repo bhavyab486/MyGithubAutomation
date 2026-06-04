@@ -26,3 +26,4 @@ test('get started link', async ({ page }) => {
 //commit - local repository
 //push - remote repository (github)
 //git pull
+//git checkout - to checkout to another branch
